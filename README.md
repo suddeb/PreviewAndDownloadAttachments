@@ -1,19 +1,13 @@
-# Salesforce DX Project: Next Steps
+# Lightning Web Component – Preview & Download Attachments
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
 
-## How Do You Plan to Deploy Your Changes?
+Recently in one of my project, I need to develop a custom lightning web component which will display all the attachments linked with that record and provide a preview and download option. Here in this repo, I am going to share the code snippet. 
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+## Important
 
-## Configure Your Salesforce DX Project
+You can and should use the related list in the page layout to display all the attachments. That way you do not require to write any custom code. My requirement is little different in the project where it is already a custom page with lots of lightning web components and they want to display the attachments. So I have to build this custom solution. 
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+## Blog Post
 
-## Read All About It
+https://sudipta-deb.in/2023/04/lightning-web-component-preview-download-attachments.html
 
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
-# PreviewAndDownloadAttachments
